@@ -1,0 +1,203 @@
+.social:hover
+        {
+            font-weight: bold;
+        }
+
+
+#time
+        {
+            position: fixed;
+            bottom: 10px;
+            z-index: 100;
+            font-family: jost;
+            font-size: medium;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 1px hidden rgb(0, 0, 0);
+            background: rgba(37, 56, 63, 0.15);
+            padding: 10px;
+            margin: 0px 5px 0px 5px;
+            backdrop-filter: blur(4px);
+            width: 96%;
+            text-align: center;
+        }
+
+
+#nav
+        {
+            width: 97%;
+            z-index: 100;
+            font-family: jost;
+            font-size: x-large;
+            font-weight: bold;
+            border-radius: 10px;
+            border: 1px hidden rgb(0, 0, 0);
+            background: rgba(37, 56, 63, 0.15);
+            padding: 10px;
+            margin: -10px;
+            position: fixed;
+            bottom: 70px;
+            backdrop-filter: blur(4px);
+            text-align: center;
+            
+        }
+
+
+.nav_button_home, .nav_button_about, .nav_button_pro, .nav_button_lang, .nav_button_m_about, .nav_button_proj, .nav_button_contact
+        {
+            font-size: large;
+            color: black;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+
+.nav_button_home:hover
+        {
+            font-weight:500;
+        }
+
+        
+.nav_button_about:hover
+        {
+            font-weight:500;
+        }
+
+
+.nav_button_pro:hover
+        {
+            font-weight:500;
+        }
+
+
+.nav_button_lang:hover
+        {
+            font-weight:500;
+        }
+
+        
+.nav_button_m_about:hover
+        {
+            font-weight:500;
+        }
+
+
+.nav_button_proj:hover
+        {
+            font-weight:500;
+        }
+
+
+.nav_button_contact:hover
+        {
+            font-weight:500;
+        }
+
+
+body
+        {
+            padding: 10px;
+            font-family: jost;
+            background-image: linear-gradient(to bottom right, lightblue, skyblue, deepskyblue, rgb(0, 162, 255));
+        }
+
+
+#home, #sub_cont1, #sub_cont2, #contact, #project
+        {
+            background-color: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+
+#proficiency, #language, #contact
+        {
+            display: flex;
+        }
+
+
+#col_left1
+        {
+            float: left;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            margin: 0px 10px 1px 1px;
+            padding: 10px;
+        }
+
+
+#col_right2
+        {
+            float: right;
+            width: 100%;
+            margin: 1px 10px 0px 1px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+
+#col_left3
+        {
+            float: left;
+            width: 50%;
+            border-radius: 10px;
+            margin: 0px 10px 1px 1px;
+            padding: 10px;
+        }
+
+
+#col_right3
+        {
+            float: right;
+            width: 50%;
+            margin: 1px 10px 0px 1px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+
+ul 
+        {
+            list-style-type: none;
+            padding-left: 16px;
+            counter-reset: my-counter;
+        }
+
+
+ul li 
+        {
+            position: relative;
+            padding-left: 16px;
+            counter-increment: my-counter;
+            counter-reset: none; /* Remove the numbers */
+        }
+
+
+ul li::before 
+        {
+            content: "";
+            background: url('https://cdn-icons-png.flaticon.com/128/728/728139.png');
+            background-size:20px 20px; /* Adjust the size as needed */
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(-100%, -50%);
+        }
+
+
+#b
+        {
+            font-weight: bold;
+        }
+
+
+#contact_link
+        {
+            color: black;
+            text-decoration: none;
+        }
